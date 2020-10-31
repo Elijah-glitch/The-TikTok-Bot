@@ -9,15 +9,15 @@ import time
 mainURL = "https://fireliker.com/"
 panelURL = "https://fireliker.com/welcome.php"
 autoviewURL = "https://fireliker.com/autoviews.php"
-loop = False
+loop = true
 
 # Prompt the user for their information and desired views.
 print("What is your TikTok user name?")
-user = input("-->>  ")
+user = input("-->>nixeli84  ")
 
 print("How many views would you like?")
 print("Options are : [1000] [800] [600] [400] [200] ")
-views = input("")
+views = input("1000")
 
 chrome_options = webdriver.ChromeOptions()
 chrome_options.add_argument("--log-level=3")
